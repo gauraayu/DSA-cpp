@@ -44,7 +44,7 @@ void mergesort(int arr[], int low, int high)
     if(low<high){
         mid=(low+high)/2;
         mergesort(arr,low,mid);
-        
+
     }
 }
 int main()
@@ -56,7 +56,7 @@ int main()
             cout << arr[i]<<"\t";
                  
         }
-        qksort(arr,0,s-1);
+        mergesort(arr,0,s-1);
         cout<<"\n after apllying sort:"<<endl;
          for (int i = 0; i < s; i++)
         {
