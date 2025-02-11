@@ -21,6 +21,7 @@ class top{
         for (int i = 0; i < s; i++)
         {
             // METHOD 1
+            // algo 
           cout<<arr[i];
           if(i<s-1){
             cout<<",";}
